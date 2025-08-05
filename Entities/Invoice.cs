@@ -13,7 +13,7 @@ namespace Xadrez1.Entities
         }
         public double TotalPayment
         {
-            get { return BasiPayment + Tax }
+            get { return BasiPayment + Tax; }
         }
         public override string ToString()
         {
@@ -22,7 +22,7 @@ namespace Xadrez1.Entities
                 + "\nTax: "
                 + Tax.ToString("F2",CultureInfo.InvariantCulture)
                 + "\nTotal payment: "
-                + TotalPayment.ToString(CultureInfo.InvariantCulture);
+                + TotalPayment.ToString("F2",CultureInfo.InvariantCulture);
         }
     }
 }
