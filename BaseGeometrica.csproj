@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\AbstrateShape.cs" />
     <Compile Include="Entities\Cicle.cs" />
+    <Compile Include="Entities\Ishape.cs" />
     <Compile Include="Entities\Retangulo.cs" />
-    <Compile Include="Entities\Shape.cs" />
     <Compile Include="Enums\Color.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

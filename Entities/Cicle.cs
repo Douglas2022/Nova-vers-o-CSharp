@@ -1,10 +1,11 @@
 ﻿
+using BaseGeometrica.Entities;
 using System;
 using System.Globalization;
 
 namespace BaseGeometrica.Model.Entities
 {
-    internal class Cicle : Shape
+    internal class Cicle : AbstrateShape
     {
         public double Radiums { get; set; }
 

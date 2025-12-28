@@ -1,9 +1,10 @@
-﻿using System;
+﻿using BaseGeometrica.Entities;
+using System;
 using System.Globalization;
 
 namespace BaseGeometrica.Model.Entities
 {
-    class Retangulo : Shape
+    class Retangulo : AbstrateShape
     {
         public double Widht { get; set; }
         public double Height { get; set; }
