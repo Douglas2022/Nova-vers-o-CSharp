@@ -1,12 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 
-namespace BaseGeometrica.Entities
+namespace BaseGeometrica.Model.Entities
 {
-    internal class Retangulo
+    class Retangulo : Shape
     {
+        public double Widht { get; set; }
+        public double Height { get; set; }
+
+        public override Double Area()
+        {
+            return Widht * Height;
+
+        }
+        public override String ToString()
+        {
+            return "Retangule color = "
+            + Color
+            + ",Widht = "
+            + Widht.ToString("F2", CultureInfo.InvariantCulture)
+            + ",Reight = "
+            + Height.ToString("F2", CultureInfo.InvariantCulture)
+            + ",Aréa = "
+            + Area().ToString("F2", CultureInfo.InvariantCulture);
+
+        }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace BaseGeometrica.Model.Entities
 {
-    public abstract class Shape
+    abstract class Shape
     {
         public Color Color { get; set; }
 
