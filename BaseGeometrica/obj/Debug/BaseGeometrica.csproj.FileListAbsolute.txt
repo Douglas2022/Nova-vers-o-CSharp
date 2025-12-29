@@ -1,0 +1,7 @@
+C:\Users\paulo\OneDrive\Desktop\C#\BaseGeometrica\bin\Debug\BaseGeometrica.exe.config
+C:\Users\paulo\OneDrive\Desktop\C#\BaseGeometrica\bin\Debug\BaseGeometrica.exe
+C:\Users\paulo\OneDrive\Desktop\C#\BaseGeometrica\bin\Debug\BaseGeometrica.pdb
+C:\Users\paulo\OneDrive\Desktop\C#\BaseGeometrica\obj\Debug\BaseGeometrica.csproj.AssemblyReference.cache
+C:\Users\paulo\OneDrive\Desktop\C#\BaseGeometrica\obj\Debug\BaseGeometrica.csproj.CoreCompileInputs.cache
+C:\Users\paulo\OneDrive\Desktop\C#\BaseGeometrica\obj\Debug\BaseGeometrica.exe
+C:\Users\paulo\OneDrive\Desktop\C#\BaseGeometrica\obj\Debug\BaseGeometrica.pdb
