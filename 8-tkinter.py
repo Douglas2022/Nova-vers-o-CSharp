@@ -21,8 +21,13 @@ frase_label.pack(fill = 'x',expand=True)
 frase_inp = tk.Entry(frame)
 frase_inp.pack(fill='x',expand=True)
 
+# Alterar o texto do label
+def click():
+    label.config(text=frase_inp.get())
+
+
 # Adicionando um botão
-button = tk.Button(frame,text="Enviar")
+button = tk.Button(frame,text="Enviar",command=click)
 button.pack()
 
 
