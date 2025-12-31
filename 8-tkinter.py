@@ -11,6 +11,8 @@ frame = tk.Frame(window)
 frame.pack(padx=10,pady=10,fill='x',expand=True)
 
 # Adicionando um label
+label = tk.Label(frame, text="Olá mundo,Douglas")
+label.pack(fill='x',expand=True)
 
 
 window.mainloop()
