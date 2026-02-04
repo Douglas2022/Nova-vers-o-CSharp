@@ -19,10 +19,7 @@ namespace Course1
             printService.Print();
             Console.WriteLine("First: " + printService.First());
             Console.WriteLine("Paulo Douglas");
-            // Teste de alteração para commit
-            // Teste de alteração para commit
-            Console.WriteLine("Alteração");
-
+      
         }
 
     }
