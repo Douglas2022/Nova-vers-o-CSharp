@@ -1,6 +1,8 @@
 ﻿using Couser2.Sevices;
 using System;
 using System.Collections.Generic;
+using Couser2.Entities;
+using System.Globalization;
 
 
 namespace Couser2
@@ -9,20 +11,22 @@ namespace Couser2
     {
         static void Main(string[] args)
         {
-            List<int> list = new List<int>();
+            List<Product> list = new List<Product>();
 
             Console.Write("Digite N: ");
             int n = int.Parse(Console.ReadLine());  
 
             for (int i = 0; i < n; i++)
             {
-                int x = int.Parse(Console.ReadLine());
-                list.Add(x);
+                string[] vect = Console.ReadLine().Split(',');
+                string name = vect[0];
+                double price = double.Parse(vect[1],CultureInfo.InvariantCulture);
+                list.Add(new Product(name,price));
             }
 
             CalculationService calationService = new CalculationService();
 
-            int max = calationService.Max(list);
+            Product max = calationService.Max(list);
             
             Console.WriteLine("Max");
             Console.WriteLine(max);
