@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\paulo\\source\\repos\\Couser2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B2292F7-2D76-47D2-9F89-54BF96FF1356}|Couser2.csproj|C:\\Users\\paulo\\source\\repos\\Couser2\\produtos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B2292F7-2D76-47D2-9F89-54BF96FF1356}|Couser2.csproj|solutionrelative:produtos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B2292F7-2D76-47D2-9F89-54BF96FF1356}|Couser2.csproj|C:\\Users\\paulo\\source\\repos\\Couser2\\services\\calcuationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2292F7-2D76-47D2-9F89-54BF96FF1356}|Couser2.csproj|solutionrelative:services\\calcuationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B2292F7-2D76-47D2-9F89-54BF96FF1356}|Couser2.csproj|c:\\users\\paulo\\source\\repos\\couser2\\services\\calcuationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B2292F7-2D76-47D2-9F89-54BF96FF1356}|Couser2.csproj|solutionrelative:services\\calcuationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B2292F7-2D76-47D2-9F89-54BF96FF1356}|Couser2.csproj|c:\\users\\paulo\\source\\repos\\couser2\\produtos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2292F7-2D76-47D2-9F89-54BF96FF1356}|Couser2.csproj|solutionrelative:produtos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CalcuationService.cs",
               "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Couser2\\Services\\CalcuationService.cs",
               "RelativeDocumentMoniker": "Services\\CalcuationService.cs",
               "ToolTip": "C:\\Users\\paulo\\source\\repos\\Couser2\\Services\\CalcuationService.cs",
               "RelativeToolTip": "Services\\CalcuationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T22:38:10.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Couser2\\Produtos\\Program.cs",
               "RelativeDocumentMoniker": "Produtos\\Program.cs",
               "ToolTip": "C:\\Users\\paulo\\source\\repos\\Couser2\\Produtos\\Program.cs",
               "RelativeToolTip": "Produtos\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T22:36:12.439Z",
               "EditorCaption": ""

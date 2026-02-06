@@ -5,3 +5,10 @@ C:\Users\paulo\source\repos\AulaC#\Course1\obj\Debug\Course1.csproj.AssemblyRefe
 C:\Users\paulo\source\repos\AulaC#\Course1\obj\Debug\Course1.csproj.CoreCompileInputs.cache
 C:\Users\paulo\source\repos\AulaC#\Course1\obj\Debug\Course1.exe
 C:\Users\paulo\source\repos\AulaC#\Course1\obj\Debug\Course1.pdb
+C:\Users\paulo\source\repos\Couser2\bin\Debug\Course1.exe.config
+C:\Users\paulo\source\repos\Couser2\bin\Debug\Course1.exe
+C:\Users\paulo\source\repos\Couser2\bin\Debug\Course1.pdb
+C:\Users\paulo\source\repos\Couser2\obj\Debug\Course1.csproj.AssemblyReference.cache
+C:\Users\paulo\source\repos\Couser2\obj\Debug\Course1.csproj.CoreCompileInputs.cache
+C:\Users\paulo\source\repos\Couser2\obj\Debug\Course1.exe
+C:\Users\paulo\source\repos\Couser2\obj\Debug\Course1.pdb
