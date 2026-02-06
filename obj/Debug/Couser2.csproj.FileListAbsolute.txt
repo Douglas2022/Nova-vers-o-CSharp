@@ -1,0 +1,7 @@
+C:\Users\paulo\source\repos\Couser2\obj\Debug\Couser2.csproj.AssemblyReference.cache
+C:\Users\paulo\source\repos\Couser2\obj\Debug\Couser2.csproj.CoreCompileInputs.cache
+C:\Users\paulo\source\repos\Couser2\bin\Debug\Couser2.exe.config
+C:\Users\paulo\source\repos\Couser2\bin\Debug\Couser2.exe
+C:\Users\paulo\source\repos\Couser2\bin\Debug\Couser2.pdb
+C:\Users\paulo\source\repos\Couser2\obj\Debug\Couser2.exe
+C:\Users\paulo\source\repos\Couser2\obj\Debug\Couser2.pdb
