@@ -1,4 +1,5 @@
 ﻿using System;
+using Couser3.Entities;
 
 namespace Couser3
 {
@@ -6,18 +7,12 @@ namespace Couser3
     {
         static void Main(string[] args)
         {
-            //string a = "Maria";
-            //string b = "Alexa";
-
-            //Console.WriteLine(a.Equals(b));
-
-
-            string a = "Maria";
-           // string a = "Maria";
-            string b = "José";
-           // string b = "Alexa";
+            Client a = new Client { Name = "Maria", Email = "Maria@gmail.com" };
+            Client b = new Client { Name = "Cathrina", Email = "Maria@gmail.com" };
+            //Client b = new Client { Name = "Cathrina", Email = "Cat@gmail.com" };
 
             Console.WriteLine(a.Equals(b));
+            Console.WriteLine(a == b); //False
             Console.WriteLine(a.GetHashCode());
             Console.WriteLine(b.GetHashCode());
 
