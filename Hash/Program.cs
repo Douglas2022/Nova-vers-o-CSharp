@@ -10,7 +10,11 @@ namespace Hash
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Como o hash compara a igualdade?");
+            HashSet<string> set = new HashSet<string>();
+            set.Add("Maria");
+            set.Add("Alex");
+
+            Console.WriteLine(set.Contains("Maria"));
 
         }
     }
