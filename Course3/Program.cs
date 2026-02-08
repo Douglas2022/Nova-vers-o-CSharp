@@ -14,6 +14,12 @@ namespace Course3
             SortedSet<int> c = new SortedSet<int>(a);
             c.UnionWith(b);
             PrintCollection(c);
+
+            //Intersection
+            SortedSet<int> d = new SortedSet<int>(a);
+            d.IntersectWith(b);
+            PrintCollection(d);
+
         }
         static void PrintCollection<T>(IEnumerable<T> collection)
         {
