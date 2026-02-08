@@ -7,19 +7,18 @@ namespace Course3
     {
         static void Main(string[] args)
         {
-            HashSet<string> set = new HashSet<string>();
-            set.Add("TV");
-            set.Add("Notebook");
-            set.Add("Tablet");
+            SortedSet<int> a = new SortedSet<int>() {0,2,4,6,8,10};
+            SortedSet<int> b = new SortedSet<int>() { 5,6,7,8,9,10};
 
-            Console.WriteLine(set.Contains("Notebook"));
-           // Console.WriteLine(set.Contains("Computer")); false
-
-            foreach(string p in set)
+            PrintCollection(a);
+        }
+        static void PrintCollection<T>(IEnumerable<T> collection)
+        {
+            foreach (T obj in collection)
             {
-                Console.WriteLine(p);
+                Console.Write(obj + " ");
             }
-
+            Console.WriteLine();
         }
     }
 }
