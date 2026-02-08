@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Hash.Entities;
 
 namespace Hash.Entities
 {
@@ -11,7 +9,7 @@ namespace Hash.Entities
         public string Name { get; set; }
         public string Price { get; set; }
 
-        public Product(string name, string price)
+        public Product(string name, int v, string price)
         {
             Name = name;
             Price = price;
