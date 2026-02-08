@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4729CF42-AA05-4EA3-B0CA-2004DE6EF3C6}|Couser3.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\couser3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4729CF42-AA05-4EA3-B0CA-2004DE6EF3C6}|Couser3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4729CF42-AA05-4EA3-B0CA-2004DE6EF3C6}|Couser3.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\couser3\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4729CF42-AA05-4EA3-B0CA-2004DE6EF3C6}|Couser3.csproj|solutionrelative:entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Couser3\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Couser3\\Entities\\Client.cs",
+              "RelativeToolTip": "Entities\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T14:34:14.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Couser3\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T14:08:34.803Z",
               "EditorCaption": ""

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Couser3
 {
@@ -10,8 +6,20 @@ namespace Couser3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" Testando");
+            //string a = "Maria";
+            //string b = "Alexa";
 
+            //Console.WriteLine(a.Equals(b));
+
+
+            string a = "Maria";
+           // string a = "Maria";
+            string b = "José";
+           // string b = "Alexa";
+
+            Console.WriteLine(a.Equals(b));
+            Console.WriteLine(a.GetHashCode());
+            Console.WriteLine(b.GetHashCode());
 
         }
     }
