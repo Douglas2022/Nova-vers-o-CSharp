@@ -10,7 +10,10 @@ namespace Course3
             SortedSet<int> a = new SortedSet<int>() {0,2,4,6,8,10};
             SortedSet<int> b = new SortedSet<int>() { 5,6,7,8,9,10};
 
-            PrintCollection(a);
+            //unio de A e B
+            SortedSet<int> c = new SortedSet<int>(a);
+            c.UnionWith(b);
+            PrintCollection(c);
         }
         static void PrintCollection<T>(IEnumerable<T> collection)
         {
