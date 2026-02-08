@@ -19,6 +19,10 @@ namespace Course3
             SortedSet<int> d = new SortedSet<int>(a);
             d.IntersectWith(b);
             PrintCollection(d);
+            //Diferença
+            SortedSet<int> e = new SortedSet<int>(a);
+            e.ExceptWith(b);
+            PrintCollection(e);
 
         }
         static void PrintCollection<T>(IEnumerable<T> collection)
