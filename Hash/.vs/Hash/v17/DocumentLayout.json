@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Hash\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A9F233B4-9484-462B-93B0-6F7772DCBC6D}|Hash.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\hash\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F233B4-9484-462B-93B0-6F7772DCBC6D}|Hash.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F233B4-9484-462B-93B0-6F7772DCBC6D}|Hash.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\hash\\entities\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F233B4-9484-462B-93B0-6F7772DCBC6D}|Hash.csproj|solutionrelative:entities\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9F233B4-9484-462B-93B0-6F7772DCBC6D}|Hash.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\hash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9F233B4-9484-462B-93B0-6F7772DCBC6D}|Hash.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Hash\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Hash\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T23:00:12.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Point.cs",
+              "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Hash\\Entities\\Point.cs",
+              "RelativeDocumentMoniker": "Entities\\Point.cs",
+              "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Hash\\Entities\\Point.cs",
+              "RelativeToolTip": "Entities\\Point.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T22:55:58.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Hash\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Hash\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T22:43:17.491Z",
               "EditorCaption": ""
