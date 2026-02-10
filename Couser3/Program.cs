@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Couser3.Entities;
 
 namespace Couser3
@@ -7,15 +8,20 @@ namespace Couser3
     {
         static void Main(string[] args)
         {
-            Client a = new Client { Name = "Maria", Email = "Maria@gmail.com" };
-            Client b = new Client { Name = "Cathrina", Email = "Maria@gmail.com" };
-            //Client b = new Client { Name = "Cathrina", Email = "Cat@gmail.com" };
+          HashSet<Product> a = new HashSet<Product>();
+            a.Add(new Product("TV", 900.0));
+            a.Add(new Product("Notebook", 1200.0));
 
-            Console.WriteLine(a.Equals(b));
-            Console.WriteLine(a == b); //False
-            Console.WriteLine(a.GetHashCode());
-            Console.WriteLine(b.GetHashCode());
+            HashSet<Point> b = new HashSet<Point>();
+            b.Add(new Point(3,4));
+            b.Add(new Point(5,10));
 
+            Product prod = new Product("Notebook", 1200.0);
+
+            Console.WriteLine(a.Contains(prod));
+
+            Point p = new Point(3,4);
+            Console.WriteLine(b.Contains(p));
         }
     }
 }
