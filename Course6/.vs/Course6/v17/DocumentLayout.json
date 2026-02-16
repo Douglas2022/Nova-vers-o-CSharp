@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{560D0EB7-F4EC-4096-A853-3F1F90E46465}|Course6.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\course6\\extentions\\datetimeextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{560D0EB7-F4EC-4096-A853-3F1F90E46465}|Course6.csproj|solutionrelative:extentions\\datetimeextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{560D0EB7-F4EC-4096-A853-3F1F90E46465}|Course6.csproj|C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{560D0EB7-F4EC-4096-A853-3F1F90E46465}|Course6.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560D0EB7-F4EC-4096-A853-3F1F90E46465}|Course6.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\course6\\extentions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560D0EB7-F4EC-4096-A853-3F1F90E46465}|Course6.csproj|solutionrelative:extentions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560D0EB7-F4EC-4096-A853-3F1F90E46465}|Course6.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\course6\\extentions\\datetimeextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560D0EB7-F4EC-4096-A853-3F1F90E46465}|Course6.csproj|solutionrelative:extentions\\datetimeextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "StringExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course6\\Extentions\\StringExtensions.cs",
+              "RelativeDocumentMoniker": "Extentions\\StringExtensions.cs",
+              "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course6\\Extentions\\StringExtensions.cs",
+              "RelativeToolTip": "Extentions\\StringExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:55:55.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DateTimeExtentions.cs",
               "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course6\\Extentions\\DateTimeExtentions.cs",
               "RelativeDocumentMoniker": "Extentions\\DateTimeExtentions.cs",
               "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course6\\Extentions\\DateTimeExtentions.cs",
               "RelativeToolTip": "Extentions\\DateTimeExtentions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T13:03:16.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course6\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course6\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T12:58:06.279Z",
               "EditorCaption": ""

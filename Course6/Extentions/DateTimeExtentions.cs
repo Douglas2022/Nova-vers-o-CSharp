@@ -1,9 +1,8 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Course6.Extentions
+namespace System
 {
     static class DateTimeExtentions
     {
