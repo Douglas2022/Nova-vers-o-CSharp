@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course3\\",
+  "WorkspaceRootPath": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D1AFDE5-7B37-4868-B906-BDB5140DDC6E}|Course3.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\course3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D1AFDE5-7B37-4868-B906-BDB5140DDC6E}|Course3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36060552-EB0F-4BFC-9C83-07748D2E8591}|Course5.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\course5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36060552-EB0F-4BFC-9C83-07748D2E8591}|Course5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course5\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course3\\Program.cs",
+              "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course5\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T15:18:25.224Z",
+              "WhenOpened": "2026-02-16T12:17:44.193Z",
               "EditorCaption": ""
             }
           ]
