@@ -14,7 +14,9 @@ namespace Course8
             list.Add(new Product("Notebook", 1200.00));
             list.Add(new Product("Tablet", 100.00));
 
-            list.Sort(CompareTo);
+            Comparison<Product> comp = ComparerProducts;
+
+            list.Sort(comp);
 
             foreach (Product p in list)
             {
@@ -22,15 +24,14 @@ namespace Course8
                 Console.WriteLine("Atualizada");
             }
         }
-        static int CompareTo(Product p1, Product p2)
+        static int ComparerProducts(Product p1, Product p2)
         {
             return p1.Name.ToUpper().CompareTo(p2.Name.ToUpper());
-           
+
         }
-            
 
     }
-              
+
 }
 
 
