@@ -19,7 +19,7 @@ namespace Course8.Entities
         }
         public int CompareTo(Product other)
         {
-            return Name.ToUpper().CompareTo(other.Name.ToUpper());
+            return Price.CompareTo(other.Price);
         }
 
     }
