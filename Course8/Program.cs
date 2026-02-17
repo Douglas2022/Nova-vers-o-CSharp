@@ -19,13 +19,18 @@ namespace Course8
             foreach (Product p in list)
             {
                 Console.WriteLine(p);
+                Console.WriteLine("Atualizada");
             }
         }
         static int CompareTo(Product p1, Product p2)
         {
             return p1.Name.ToUpper().CompareTo(p2.Name.ToUpper());
+           
         }
+            
+
     }
+              
 }
 
 
