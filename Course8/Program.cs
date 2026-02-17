@@ -14,15 +14,17 @@ namespace Course8
             list.Add(new Product("Notebook", 1200.00));
             list.Add(new Product("Tablet", 100.00));
 
-            list.Sort();
+            list.Sort(CompareTo);
 
             foreach (Product p in list)
             {
                 Console.WriteLine(p);
             }
         }
-
-           
+        static int CompareTo(Product p1, Product p2)
+        {
+            return p1.Name.ToUpper().CompareTo(p2.Name.ToUpper());
+        }
     }
 }
 
