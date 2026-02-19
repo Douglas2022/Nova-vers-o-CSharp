@@ -13,6 +13,7 @@ namespace Course9
 
             BinaryNumericOperation op = CalculateServices.Sum;
             BinaryNumericOperation opi = CalculateServices.Max;
+            //BinaryNumericOperation op = new BinaryNumericOperation(CalculateServices.Sum);
            
 
             //double result = CalculateServices.Sum(a, b);
@@ -22,7 +23,7 @@ namespace Course9
             //Console.WriteLine("Máximo de 10 é: " + result0);
             //Console.WriteLine("Raiz de (a) é: " + resulto);
 
-            double result = op(a,b);
+            double result = op.Invoke(a,b);
             Console.WriteLine(result);
 
             double resulte = opi(a, b);
