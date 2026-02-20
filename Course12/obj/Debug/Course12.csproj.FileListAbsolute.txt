@@ -1,0 +1,7 @@
+C:\Users\paulo\source\repos\Nova-vers-o-CSharp\Course12\bin\Debug\Course12.exe.config
+C:\Users\paulo\source\repos\Nova-vers-o-CSharp\Course12\bin\Debug\Course12.exe
+C:\Users\paulo\source\repos\Nova-vers-o-CSharp\Course12\bin\Debug\Course12.pdb
+C:\Users\paulo\source\repos\Nova-vers-o-CSharp\Course12\obj\Debug\Course12.csproj.AssemblyReference.cache
+C:\Users\paulo\source\repos\Nova-vers-o-CSharp\Course12\obj\Debug\Course12.csproj.CoreCompileInputs.cache
+C:\Users\paulo\source\repos\Nova-vers-o-CSharp\Course12\obj\Debug\Course12.exe
+C:\Users\paulo\source\repos\Nova-vers-o-CSharp\Course12\obj\Debug\Course12.pdb
