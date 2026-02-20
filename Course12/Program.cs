@@ -16,7 +16,10 @@ namespace Course12
             list.Add(new Product("Tablet", 350.00));
             list.Add(new Product("HD case", 80.90));
 
-            list.ForEach(UpdatePrice);
+            Action<Product> act = p => { p.Price += p.Price * 0.1; };
+
+
+            list.ForEach(p => { p.Price+}=)
             foreach (Product p in list)
             {
                 Console.WriteLine(p);

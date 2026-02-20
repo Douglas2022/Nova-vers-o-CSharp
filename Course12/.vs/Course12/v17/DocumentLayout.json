@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{8CEDCF36-F94B-48F9-81B8-DE764E1DA650}|Course12.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CEDCF36-F94B-48F9-81B8-DE764E1DA650}|Course12.csproj|c:\\users\\paulo\\source\\repos\\nova-vers-o-csharp\\course12\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CEDCF36-F94B-48F9-81B8-DE764E1DA650}|Course12.csproj|C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course12\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CEDCF36-F94B-48F9-81B8-DE764E1DA650}|Course12.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\paulo\\source\\repos\\Nova-vers-o-CSharp\\Course12\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAAAJAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T23:42:33.301Z",
               "EditorCaption": ""
