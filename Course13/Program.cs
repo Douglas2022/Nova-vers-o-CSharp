@@ -18,10 +18,10 @@ namespace Course13
             list.Add(new Product("Mouse", 900.00));
             list.Add(new Product("Tablet", 900.00));
             list.Add(new Product("HD case", 900.00));
-            //Delagate
-            Func<Product, string> func = p => p.Name.ToUpper();
+            //Delagate;Colocar a expressao lambida em in line.
+           
 
-            List<string> result = list.Select(func).ToList();
+            List<string> result = list.Select(p => p.Name.ToUpper()).ToList();
             foreach (string s in result)
             {
                 Console.WriteLine(s);
