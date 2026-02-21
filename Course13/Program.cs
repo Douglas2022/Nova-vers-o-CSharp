@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-//Fazer um programa que,a partir de uma lista de produtos,Letras maíscula
-//gere uma nova lista contendo os nomes dos produtos em caixa alta.
+//Fazer um programa que,a partir de uma lista de produtos.Letras maíscula gere uma nova lista contendo os nomes dos produtos em caixa alta.
+
 namespace Course13
 {
     internal class Program
@@ -19,17 +19,18 @@ namespace Course13
             list.Add(new Product("Tablet", 900.00));
             list.Add(new Product("HD case", 900.00));
             //Delagate
-            Func<Product, string> func = NameUpper;
+            Func<Product, string> func = p => p.Name.ToUpper();
 
             List<string> result = list.Select(func).ToList();
-            foreach(string s in result)
+            foreach (string s in result)
             {
                 Console.WriteLine(s);
             }
         }
-        static string NameUpper(Product P)
-        {
-            return P.Name.ToUpper();
-        }
+        /*  static string NameUpper(Product P)
+         {
+              return P.Name.ToUpper();
+         }
+        */
     }
 }
