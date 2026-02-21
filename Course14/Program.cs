@@ -15,9 +15,22 @@ namespace Course14
             //Pegar os números pares e multiplicar por 10.
             //Especificar o Data Source
             //Criar um vetor
-            int[] numero = new int[] { 1, 2, 3, 4, 5,6 };
+            int[] numero = new int[] { 1, 2, 3, 4, 5, 6 };
             //Definir a consulta
             //Predicado para os números pares
+            IEnumerable<int> result = numero
+                .Where(x => x % 2 == 0)
+                .Select(x => x * 10);
+            //Executar a consulta
+            foreach (var x in result)
+            {
+                Console.WriteLine(x);
+            }
+
+            /*
+            int[] numero = new int[] { 1, 2, 3, 4, 5,6 };
+            Definir a consulta
+            Predicado para os números pares
             var result = numero
                 .Where(x => x % 2 == 0)
                 .Select(x => x * 10);
@@ -26,6 +39,7 @@ namespace Course14
             {
                 Console.WriteLine(x);
             }
+             */
         }
     }
 }
