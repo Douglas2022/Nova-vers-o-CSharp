@@ -50,6 +50,10 @@ namespace Course15
 
             var r4 = products.Where(p => p.Category.Tier == 1).OrderBy( P => P.Price).ThenBy(P => P.Name);
             Print("Tier 1 ordenado por preço e nome: ",r4);
+
+            var r5 = r4.Skip(2).Take(4);
+            Print("Tier 1 ordenado por preço e nome: Pula 2 e pega 4 ", r5);
+
         }
     }
 }
