@@ -54,8 +54,15 @@ namespace Course15
             var r5 = r4.Skip(2).Take(4);
             Print("Tier 1 ordenado por preço e nome: Pula 2 e pega 4 ", r5);
 
-            var r6 = products.First();
-            Console.WriteLine("First teste: " + r6);
+            var r6 = products.FirstOrDefault();
+            Console.WriteLine("First or default teste1: " + r6);
+
+            var r7 = products.Where(P => P.Price > 3000.0).FirstOrDefault();
+            Console.WriteLine("Primeiro or default: " + r7);
+            Console.WriteLine();
+
+            var r8 = products.Where(P => P.Id > 3).SingleOrDefault();
+            Console.WriteLine("Single or default test1:" + r8);
 
         }
     }
