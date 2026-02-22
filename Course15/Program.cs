@@ -47,6 +47,9 @@ namespace Course15
 
             var r3 = products.Where(P => P.Name[0] == 'C').Select(P => new {P.Name,P.Price,CategoryName = P.Category.Name});
             Print("Nome começado com 'C' e objetos anonimos ",r3);
+
+            var r4 = products.Where(p => p.Category.Tier == 1).OrderBy( P => P.Price).ThenBy(P => P.Name);
+            Print("Tier 1 ordenado por preço e nome: ",r4);
         }
     }
 }
