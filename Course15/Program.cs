@@ -54,6 +54,9 @@ namespace Course15
             var r5 = r4.Skip(2).Take(4);
             Print("Tier 1 ordenado por preço e nome: Pula 2 e pega 4 ", r5);
 
+            var r6 = products.First();
+            Console.WriteLine("First teste: " + r6);
+
         }
     }
 }
