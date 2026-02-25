@@ -83,7 +83,8 @@ namespace Course15
             var r14 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).DefaultIfEmpty(0.0).Average();
             Console.WriteLine("Category 5 avered price: " + r14);
 
-
+            var r15 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).Aggregate(0.0,(x,y) => x + y );
+            Console.WriteLine("Category 1 agregate sum: " + r15);
             // var r10 = products.Any() ? products.Max(p => p.Price) : 0;
 
         }
