@@ -78,8 +78,11 @@ namespace Course15
             Console.WriteLine("Soma dos preços: " + totalPrice);
             Console.WriteLine("Média dos preços: " + averagePrice);
 
-
             var r12 = products.Where(p => p.Category.Id == 1);
+
+            var r14 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).DefaultIfEmpty(0.0).Average();
+            Console.WriteLine("Category 5 avered price: " + r14);
+
 
             // var r10 = products.Any() ? products.Max(p => p.Price) : 0;
 
