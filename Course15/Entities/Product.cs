@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 namespace Course15.Entities
 {
-    internal class Product
+    internal class Products
     {
         public int Id { get; set; }
         public string Name { get; set; }

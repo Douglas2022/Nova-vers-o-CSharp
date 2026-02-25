@@ -24,19 +24,19 @@ namespace Course15
             Category c2 = new Category() { Id = 2, Name = "Computers", Tier = 1 };
             Category c3 = new Category() { Id = 3, Name = "Eletronics", Tier = 1 };
 
-            List<Product> products = new List<Product>()
+            List<Products> products = new List<Products>()
             {
-                new Product() { Id = 1, Name = "Computer",Price = 1100.0, Category = c2 },
-                new Product() { Id = 2, Name = "Hammer",Price = 900.0, Category = c3 },
-                new Product() { Id = 3, Name = "TV",Price = 1700.0, Category = c2 },
-                new Product() { Id = 4, Name = "Notebook",Price = 1800.0, Category = c2 },
-                new Product() { Id = 5, Name = "Saw",Price = 1500.0, Category = c1 },
-                new Product() { Id = 6, Name = "Tablet",Price = 900.0, Category = c2 },
-                new Product() { Id = 7, Name = "Camera",Price = 300.0, Category = c1 },
-                new Product() { Id = 8, Name = "Printer",Price = 200.0, Category = c3 },
-                new Product() { Id = 9, Name = "MacBook",Price = 1400.0, Category = c2 },
-                new Product() { Id = 10, Name = "Sound bar",Price = 1200.0, Category = c3 },
-                new Product() { Id = 11, Name = "Level",Price = 1500.0, Category = c1 }
+                new Products() { Id = 1, Name = "Computer",Price = 1100.0, Category = c2 },
+                new Products() { Id = 2, Name = "Hammer",Price = 900.0, Category = c3 },
+                new Products() { Id = 3, Name = "TV",Price = 1700.0, Category = c2 },
+                new Products() { Id = 4, Name = "Notebook",Price = 1800.0, Category = c2 },
+                new Products() { Id = 5, Name = "Saw",Price = 1500.0, Category = c1 },
+                new Products() { Id = 6, Name = "Tablet",Price = 900.0, Category = c2 },
+                new Products() { Id = 7, Name = "Camera",Price = 300.0, Category = c1 },
+                new Products() { Id = 8, Name = "Printer",Price = 200.0, Category = c3 },
+                new Products() { Id = 9, Name = "MacBook",Price = 1400.0, Category = c2 },
+                new Products() { Id = 10, Name = "Sound bar",Price = 1200.0, Category = c3 },
+                new Products() { Id = 11, Name = "Level",Price = 1500.0, Category = c1 }
             };
 
             var r1 = products.Where(P => P.Category.Tier == 1 && P.Price < 900.0);
@@ -83,9 +83,20 @@ namespace Course15
             var r14 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).DefaultIfEmpty(0.0).Average();
             Console.WriteLine("Category 5 avered price: " + r14);
 
-            var r15 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).Aggregate(0.0,(x,y) => x + y );
+            var r15 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).Aggregate(0.0, (x, y) => x + y);
             Console.WriteLine("Category 1 agregate sum: " + r15);
             // var r10 = products.Any() ? products.Max(p => p.Price) : 0;
+
+            var r16 = products.GroupBy(p => p.Category);
+            foreach (IGrouping<Category, Products> group in r16)
+            {
+                Console.WriteLine("category: " + group.Key.Name + ":");
+                foreach (Products p in group)
+                {
+                    Console.WriteLine(p);
+                }
+                Console.WriteLine();
+            }
 
         }
     }
