@@ -8,10 +8,10 @@ namespace Course15
     internal class Program
     {
         //Função auxiliar
-        static void Print<T>(string menssage,IEnumerable<T> collections)
+        static void Print<T>(string menssage, IEnumerable<T> collections)
         {
             Console.WriteLine(menssage);
-            foreach(T obj in collections)
+            foreach (T obj in collections)
             {
                 Console.WriteLine(obj);
             }
@@ -20,7 +20,7 @@ namespace Course15
 
         static void Main(string[] args)
         {
-            Category c1 = new Category() {Id = 1,Name = "Tools",Tier = 2};
+            Category c1 = new Category() { Id = 1, Name = "Tools", Tier = 2 };
             Category c2 = new Category() { Id = 2, Name = "Computers", Tier = 1 };
             Category c3 = new Category() { Id = 3, Name = "Eletronics", Tier = 1 };
 
@@ -39,17 +39,17 @@ namespace Course15
                 new Product() { Id = 11, Name = "Level",Price = 1500.0, Category = c1 }
             };
 
-            var r1 = products.Where(P => P.Category.Tier == 1 && P.Price < 900.0 );
-            Print("Tier 1 price < 900:",r1);
+            var r1 = products.Where(P => P.Category.Tier == 1 && P.Price < 900.0);
+            Print("Tier 1 price < 900:", r1);
 
             var r2 = products.Where(P => P.Category.Name == "Tools").Select(P => P.Name);
             Print("Name of products category tools", r2);
 
-            var r3 = products.Where(P => P.Name[0] == 'C').Select(P => new {P.Name,P.Price,CategoryName = P.Category.Name});
-            Print("Nome começado com 'C' e objetos anonimos ",r3);
+            var r3 = products.Where(P => P.Name[0] == 'C').Select(P => new { P.Name, P.Price, CategoryName = P.Category.Name });
+            Print("Nome começado com 'C' e objetos anonimos ", r3);
 
-            var r4 = products.Where(p => p.Category.Tier == 1).OrderBy( P => P.Price).ThenBy(P => P.Name);
-            Print("Tier 1 ordenado por preço e nome: ",r4);
+            var r4 = products.Where(p => p.Category.Tier == 1).OrderBy(P => P.Price).ThenBy(P => P.Name);
+            Print("Tier 1 ordenado por preço e nome: ", r4);
 
             var r5 = r4.Skip(2).Take(4);
             Print("Tier 1 ordenado por preço e nome: Pula 2 e pega 4 ", r5);
@@ -61,8 +61,27 @@ namespace Course15
             Console.WriteLine("Primeiro or default: " + r7);
             Console.WriteLine();
 
-            var r8 = products.Where(P => P.Id > 3).SingleOrDefault();
+            var r8 = products.Where(P => P.Id > 3).FirstOrDefault();
             Console.WriteLine("Single or default test1:" + r8);
+
+            var r9 = products.Where(P => P.Id > 30).SingleOrDefault();
+            Console.WriteLine("Single or default test2:" + r9);
+            Console.WriteLine();
+
+            var maxPrice = products.Max(p => p.Price);
+            var totalPrice = products.Sum(p => p.Price);
+            var minPrice = products.Min(p => p.Price);
+            var averagePrice = products.Average(p => p.Price);
+
+            Console.WriteLine("Max price: " + maxPrice);
+            Console.WriteLine("Min price: " + minPrice);
+            Console.WriteLine("Soma dos preços: " + totalPrice);
+            Console.WriteLine("Média dos preços: " + averagePrice);
+
+
+            var r12 = products.Where(p => p.Category.Id == 1);
+
+            // var r10 = products.Any() ? products.Max(p => p.Price) : 0;
 
         }
     }
