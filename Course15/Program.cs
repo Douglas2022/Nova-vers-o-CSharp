@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using Course15.Entities;
+using System.Runtime.InteropServices;
 
 namespace Course15
 {
@@ -38,23 +39,52 @@ namespace Course15
                 new Products() { Id = 10, Name = "Sound bar",Price = 1200.0, Category = c3 },
                 new Products() { Id = 11, Name = "Level",Price = 1500.0, Category = c1 }
             };
+            //Demo - LINQ com notação similar SQL
 
-            var r1 = products.Where(P => P.Category.Tier == 1 && P.Price < 900.0);
+            // var r1 = products.Where(P => P.Category.Tier == 1 && P.Price < 900.0);
+            var r1 =
+                 from p in products
+                 where p.Category.Tier == 1 && p.Price < 900.0
+                 select p;
+
             Print("Tier 1 price < 900:", r1);
 
-            var r2 = products.Where(P => P.Category.Name == "Tools").Select(P => P.Name);
+            //var r2 = products.Where(P => P.Category.Name == "Tools").Select(P => P.Name);
+            var r2 =
+                from p in products
+                where p.Category.Name == "Tools"
+                select p.Name;
             Print("Name of products category tools", r2);
 
-            var r3 = products.Where(P => P.Name[0] == 'C').Select(P => new { P.Name, P.Price, CategoryName = P.Category.Name });
+            //var r3 = products.Where(P => P.Name[0] == 'C').Select(P => new { P.Name, P.Price, CategoryName = P.Category.Name });
+            var r3 =
+                from p in products
+                where p.Name[0] == 'C'
+                select new
+                {
+                    p.Name,
+                    p.Price,
+                    CategoryName = p.Category.Name
+                };
             Print("Nome começado com 'C' e objetos anonimos ", r3);
 
-            var r4 = products.Where(p => p.Category.Tier == 1).OrderBy(P => P.Price).ThenBy(P => P.Name);
+            //var r4 = products.Where(p => p.Category.Tier == 1).OrderBy(P => P.Price).ThenBy(P => P.Name);
+            var r4 =
+                from p in products
+                where p.Category.Tier == 1
+                orderby p.Name
+                orderby p.Price
+                select p;
+
             Print("Tier 1 ordenado por preço e nome: ", r4);
 
-            var r5 = r4.Skip(2).Take(4);
+           // var r5 = r4.Skip(2).Take(4);
+           var r5 = 
+                (from p in r4 select p).Skip(2).Take(4);
             Print("Tier 1 ordenado por preço e nome: Pula 2 e pega 4 ", r5);
 
-            var r6 = products.FirstOrDefault();
+            //var r6 = products.FirstOrDefault();
+
             Console.WriteLine("First or default teste1: " + r6);
 
             var r7 = products.Where(P => P.Price > 3000.0).FirstOrDefault();
