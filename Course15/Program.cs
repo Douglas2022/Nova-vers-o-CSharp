@@ -80,44 +80,52 @@ namespace Course15
 
            // var r5 = r4.Skip(2).Take(4);
            var r5 = 
-                (from p in r4 select p).Skip(2).Take(4);
+                (from p in r4
+                 select p)
+                 .Skip(2)
+                 .Take(4);
             Print("Tier 1 ordenado por preço e nome: Pula 2 e pega 4 ", r5);
 
-            //var r6 = products.FirstOrDefault();
+            /* var r6 = (from p in products select p).FirstOrDefault();
+             Console.WriteLine("First or default test1: " + r6);
 
-            Console.WriteLine("First or default teste1: " + r6);
+              var r7 =
+                   (from p in products
+                    where p.Price > 3000.0
+                    select p).FirstOrDefault();
+              Console.WriteLine("First or default test2: " + r7);
+              Console.WriteLine();
 
-            var r7 = products.Where(P => P.Price > 3000.0).FirstOrDefault();
-            Console.WriteLine("Primeiro or default: " + r7);
-            Console.WriteLine();
+              var r8 = products.Where(P => P.Id > 3).FirstOrDefault();
+              Console.WriteLine("Single or default test1:" + r8);
 
-            var r8 = products.Where(P => P.Id > 3).FirstOrDefault();
-            Console.WriteLine("Single or default test1:" + r8);
+              var r9 = products.Where(P => P.Id > 30).SingleOrDefault();
+              Console.WriteLine("Single or default test2:" + r9);
+              Console.WriteLine();
 
-            var r9 = products.Where(P => P.Id > 30).SingleOrDefault();
-            Console.WriteLine("Single or default test2:" + r9);
-            Console.WriteLine();
+              var maxPrice = products.Max(p => p.Price);
+              var totalPrice = products.Sum(p => p.Price);
+              var minPrice = products.Min(p => p.Price);
+              var averagePrice = products.Average(p => p.Price);
 
-            var maxPrice = products.Max(p => p.Price);
-            var totalPrice = products.Sum(p => p.Price);
-            var minPrice = products.Min(p => p.Price);
-            var averagePrice = products.Average(p => p.Price);
+              Console.WriteLine("Max price: " + maxPrice);
+              Console.WriteLine("Min price: " + minPrice);
+              Console.WriteLine("Soma dos preços: " + totalPrice);
+              Console.WriteLine("Média dos preços: " + averagePrice);
 
-            Console.WriteLine("Max price: " + maxPrice);
-            Console.WriteLine("Min price: " + minPrice);
-            Console.WriteLine("Soma dos preços: " + totalPrice);
-            Console.WriteLine("Média dos preços: " + averagePrice);
+              var r12 = products.Where(p => p.Category.Id == 1);
 
-            var r12 = products.Where(p => p.Category.Id == 1);
+              var r14 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).DefaultIfEmpty(0.0).Average();
+              Console.WriteLine("Category 5 avered price: " + r14);
 
-            var r14 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).DefaultIfEmpty(0.0).Average();
-            Console.WriteLine("Category 5 avered price: " + r14);
-
-            var r15 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).Aggregate(0.0, (x, y) => x + y);
-            Console.WriteLine("Category 1 agregate sum: " + r15);
-            // var r10 = products.Any() ? products.Max(p => p.Price) : 0;
-
-            var r16 = products.GroupBy(p => p.Category);
+              var r15 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).Aggregate(0.0, (x, y) => x + y);
+              Console.WriteLine("Category 1 agregate sum: " + r15);
+              // var r10 = products.Any() ? products.Max(p => p.Price) : 0;*
+            */
+            //var r16 = products.GroupBy(p => p.Category);
+            var r16 =
+                from p in products
+                group p by p.Category;
             foreach (IGrouping<Category, Products> group in r16)
             {
                 Console.WriteLine("category: " + group.Key.Name + ":");
